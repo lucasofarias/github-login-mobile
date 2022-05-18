@@ -1,10 +1,6 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet, SafeAreaView, StatusBar, Pressable, Linking} from 'react-native';
 
-// View = é uma caixa, basicamente uma div
-// Text = texto
-// SafeAreaView = protege o seu componente de sair para uma área que ele não tem acesso. Ex.: notch de celulares.
-
 const colorGitHub = '#010409';
 const colorFontGitHub = '#C9D1D9';
 const colorDarkFontGitHub = '#4F565E';
@@ -43,18 +39,13 @@ const App = () => {
 export default App;
 
 const style = StyleSheet.create({
-    container: { // estilo do View
+    container: { 
         backgroundColor: colorGitHub,
-        flex: 1, // expandir para a tela inteira.
+        flex: 1, 
         justifyContent: 'center',
     },
 
     content: {
-        /*
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'center',
-        */
         alignItems: 'center',
         padding: 20,
     },
